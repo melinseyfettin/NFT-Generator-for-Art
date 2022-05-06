@@ -22,13 +22,13 @@
 
 The Project will create arts by combining different layers of png files and generate one piece of art. It will accomplish that by using their given rarity values such as “super rare”, “rare”, “original” can be values for rarities. It will generate arts by requested rarity values and it will give us randam matched arts in given rarity value. 
 
-# How to use
-## Run the code
+# How to Use
+## Run The Code
 1. Run `node index.js`
 2. Open the `./output` folder to find your generated images to use as NFTs, as well as the metadata to use for NFT marketplaces.
 
-## Adjust the provided configuration and resources
-### Configuration file
+## Adjust The Provided Configuration and Resources
+### Configuration File
 The file `./input/config.js` contains the following properties that can be adjusted to your preference in order to change the behavior of the NFT generation procedure:
 - width: - of your image in pixels. Default: `1000px`
 - height: - of your image in pixels. Default: `1000px`
@@ -41,7 +41,7 @@ The file `./input/config.js` contains the following properties that can be adjus
 - rarityWeights: - allows to provide rarity categories and how many of each type to include in an edition. Default: `1 super_rare, 4 rare, 5 original`
 - layers: list of layers that should be used to render the image. 
 
-### Image layers 
+### Image Layers 
 The image layers are different parts that make up a full image by overlaying on top of each other. E.g. in the example input content of this repository we start with the eyeball and layer features like the eye lids or iris on top to create the completed and unique eye, which we can then use as part of our NFT collection.
 To ensure uniqueness, we want to add various features and multiple options for each of them in order to allow enough permutations for the amount of unique images we require.
 
@@ -50,6 +50,6 @@ To start, copy the layers/features and their images in a flat hierarchy at a dir
 After adding the `layers`, adjust them accordingly in the `config.js` by providing the directory path, positioning and sizes.
 Use the existing `addLayers` calls as guidance for how to add layers. This can either only use the name of the layer and will use default positioning (x=0, y=0) and sizes (width=configured width, height=configure height), or positioning and sizes can be provided for more flexibility.
 
-### Allowing different rarities for certain rarity/layer combinations
+### Allowing Different Raritie for Certain Rarity/Layer Combinations
 It is possible to provide a percentage at which e.g. a rare item would contain a rare vs. common part in a given layer. This can be done via the `addRarityPercentForLayer` that can be found in the `config.js` as well. 
 This allows for more fine grained control over how much randomness there should be during the generation process, and allows a combination of common and rare parts.
