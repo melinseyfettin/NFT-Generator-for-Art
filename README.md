@@ -55,4 +55,4 @@ It is possible to provide a percentage at which e.g. a rare item would contain a
 This allows for more fine grained control over how much randomness there should be during the generation process, and allows a combination of common and rare parts.
 
 ### Metadata Information
-The program will output all the images in the build/images directory along with the metadata files in the build/json directory. Each collection will have a _metadata.json file that consists of all the metadata in the collection inside the build/json directory. The build/json folder also will contain all the single json files that represent each image file. 
+The program will output all the images in the `build/images` directory along with the metadata files in the `build/json` directory. Each collection will have a `_metadata.json` file that consists of all the metadata in the collection inside the `build/json` directory. The `build/json` folder also will contain all the single json files that represent each image file.
