@@ -33,7 +33,7 @@ The file `./input/config.js` contains the following properties that can be adjus
 - width: - of your image in pixels. Default: `1000px`
 - height: - of your image in pixels. Default: `1000px`
 - dir: - where image parts are stored. Default: `./input`
-- description: - of your generated NFT. Default: `This is an NFT made by the coolest generative code.`
+- description: - of your generated NFT. Default: `This is an NFT made by the generative code.`
 - baseImageUri: - URL base to access your NFTs from. This will be used by platforms to find your image resource. This expects the image to be accessible by it's id like `${baseImageUri}/${id}`.
 - startEditionFrom: - number (int) to start naming NFTs from. Default: `1`
 - editionSize: - number (int) to end edition at. Default: `10`
