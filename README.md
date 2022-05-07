@@ -20,7 +20,7 @@
 
 ## Project Description
 
-The Project will create arts by combining different layers of png files and generate one piece of art. It will accomplish that by using their given rarity values such as “super rare”, “rare”, “original” can be values for rarities. It will generate arts by requested rarity values and it will give us randam matched arts in given rarity value. 
+The Project will create arts by combining different layers of png files and generate one piece of art. It will accomplish that by using their given rarity values such as “super rare”, “rare”, “original” can be values for rarities. It will generate arts by requested rarity values and it will give us random matched arts in given rarity value. 
 
 # How to Use
 ## Run The Code
@@ -42,8 +42,7 @@ The file `./input/config.js` contains the following properties that can be adjus
 - layers: list of layers that should be used to render the image. 
 
 ### Image Layers 
-The image layers are different parts that make up a full image by overlaying on top of each other. E.g. in the example input content of this repository we start with the eyeball and layer features like the eye lids or iris on top to create the completed and unique eye, which we can then use as part of our NFT collection.
-To ensure uniqueness, we want to add various features and multiple options for each of them in order to allow enough permutations for the amount of unique images we require.
+The image layers are different parts that make up a full image by overlaying on top of each other. To ensure uniqueness, we want to add various features and multiple options for each of them in order to allow enough permutations for the amount of unique images we require.
 
 To start, copy the layers/features and their images in a flat hierarchy at a directory of your choice (by default we expect them in `./input/`). The features should contain options for each rarity that is provided via the config file.
 
